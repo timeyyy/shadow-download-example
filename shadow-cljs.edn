@@ -1,0 +1,6 @@
+{:source-paths ["src"]
+ :deps {:aliases [:dev]}
+ :builds {:app {:output-dir "target/public"
+                :asset-path "/public"
+                :target :browser
+                :modules {:main {:entries [hello-world.core]}}}}}
